@@ -77,6 +77,7 @@ Some ways to determine if a gem is well-maintained are:
 Gems are great. They're a powerful tool and crucial to your success as a Ruby on Rails developer. But just because there's a gem out there for everything doesn't mean that every gem is the best one to use, so do some due diligence when choosing what to add to your Gemfile.
 
 ![Gem](http://i.imgur.com/6ipUqve.gif)
+
 [ruby_toolbox]: https://www.ruby-toolbox.com/
 [awesome_ruby]: https://github.com/markets/awesome-ruby
 [awesome_rails]: https://github.com/hothero/awesome-rails-gem
