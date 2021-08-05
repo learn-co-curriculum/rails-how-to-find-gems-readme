@@ -13,9 +13,9 @@ Working in Ruby is a joy and not just because the language itself is developer f
 
 ## Do I Even Need a Gem?
 
-The wealth of gems available for everyone to use in their projects is one of the things that sets Ruby apart from other languages. A side effect of this is *Gem Madness* - a condition where gem-crazed developers look for a gem to solve every problem without considering if a gem is really needed.
+The wealth of gems available for everyone to use in their projects is one of the things that sets Ruby apart from other languages. A side effect of this is _Gem Madness_ - a condition where gem-crazed developers look for a gem to solve every problem without considering if a gem is really needed.
 
-**//Flat-fact:** *Gem Madness* is not currently listed in the DSM-V as an official disorder, but we should all work to raise awareness.
+**//Flat-fact:** _Gem Madness_ is not currently listed in the DSM-V as an official disorder, but we should all work to raise awareness.
 
 Before we go looking for a gem to solve a problem, we should take a little time to decide if the problem we want to solve is really so big that we need a gem, or if we might be able to figure out (or Google) a way to just write the code ourselves.
 
@@ -25,7 +25,9 @@ Okay, we know we need a gem, where do we find one?
 
 We can actually look for gems right on our command line. Try this out in your console:
 
-`gem search ^twitter$ -d`
+```sh
+gem search ^twitter$ -d
+```
 
 The `gem search` command can take a regular expression and can be very handy if you know the name (or part of the name) of a gem and want to find it quickly.
 
@@ -35,7 +37,7 @@ Google, however, isn't great at letting us know if we want the gem it shows us (
 
 [The Ruby Toolbox][ruby_toolbox] is a site that aggregates and categorizes gems, ranking them according to stats like total downloads, releases, and active commits.
 
-The Ruby Toolbox is *comprehensive*, which is a fancy way of saying "it's a lot to go through." Its great if you're looking for something a little more obscure or really want to explore all the options, but sometimes we want a more curated list of which gems are popular in the community.
+The Ruby Toolbox is _comprehensive_, which is a fancy way of saying "it's a lot to go through." Its great if you're looking for something a little more obscure or really want to explore all the options, but sometimes we want a more curated list of which gems are popular in the community.
 
 Enter [Awesome Ruby][awesome_ruby] and [Awesome Rails Gem][awesome_rails], two open-source, community-maintained lists of the most popular gems for Ruby and Rails by category.
 
@@ -43,7 +45,7 @@ Enter [Awesome Ruby][awesome_ruby] and [Awesome Rails Gem][awesome_rails], two o
 
 ## Qualities to Look for When Choosing a Gem
 
-Adding a gem to your project means you are taking on a *dependency* on outside code. If that gem has security problems, your project has security problems. If that gem has bugs, your project has bugs. If that gem (or one of the gems it depends on) doesn't keep up with newer versions of Rails, you might be stuck dealing with compatibility problems.
+Adding a gem to your project means you are taking on a _dependency_ on outside code. If that gem has security problems, your project has security problems. If that gem has bugs, your project has bugs. If that gem (or one of the gems it depends on) doesn't keep up with newer versions of Rails, you might be stuck dealing with compatibility problems.
 
 Let's look at some strategies for selecting high quality, reliable, and safe gems for our project.
 
@@ -83,5 +85,3 @@ Gems are great. They're a powerful tool and crucial to your success as a Ruby on
 [awesome_rails]: https://github.com/hothero/awesome-rails-gem
 [paperclip]: https://github.com/thoughtbot/paperclip
 [awesome_index]: https://github.com/sindresorhus/awesome
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-how-to-find-gems-readme' title='How to Find Gems'>How to Find Gems</a> on Learn.co and start learning to code for free.</p>
